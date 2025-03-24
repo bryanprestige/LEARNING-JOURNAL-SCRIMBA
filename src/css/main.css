@@ -68,6 +68,12 @@ a{
     text-align: left;
     margin-left: 20px;
     margin-bottom: -10px;
+    transition: all 0.2s ease;
+}
+
+.title:hover{
+    scale: 1.05;
+    color: #243D4B;
 }
 
 .description{
@@ -236,4 +242,160 @@ dd{
     height: 232px;
     margin-bottom: 20px;
     border-radius: 3px;
+}
+
+/*=====RESPONSIVE =======*/
+
+@media screen and (min-width: 1085px) {
+    nav{
+        width: 100%;
+    }
+    nav img {
+        width: 35px;
+        margin-left: 20px;
+    }
+    nav h1{
+        font-size: 2.5rem;
+        margin-left: -350px;
+    }
+    nav ul{
+        margin-right: 50px;
+    }
+    main{
+        width: 1085px;
+    }
+    .more-blogs{
+        width: 1085px;
+    }
+    li{
+        font-size: 2rem;
+
+    }
+    .main-blog{
+        width: 1085px;
+        height: 488px;
+    }
+    .date{
+        font-size: 1.3rem;
+        margin-top: 250px;
+    }
+
+    .title{
+        width: 657px;
+        font-size: 2.2rem;
+    }
+    .description{
+        width: 615px;
+        font-size: 1.3rem;
+    }
+    #more-blogs-component{
+        width: 309px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .image-blog{
+        width: 309px;
+    }
+
+    #more-blogs-component .date {
+        font-size: 16px;
+        width: 309px;
+        margin-left: unset;
+        margin-top: 120px;
+    }
+
+    #more-blogs-component .title {
+        font-size: 24px;
+        width: 309px;
+        margin-left: unset;
+
+    }
+
+    #more-blogs-component .description {
+        font-size: 16px;
+        width: 309px;
+        margin-left: unset;
+    }
+
+    #more-blogs-section {
+        display: flex;
+    }
+
+    #view-more-button, #view-less-button{
+        font-size: 1.5rem;
+        width: 400px;
+        margin-top: 120px;
+    }
+
+    footer{
+        width: 100%;
+        margin-top: 100px;
+        font-size: 2rem;
+    }
+
+    /*=====ABOUT ME PAGE =======*/
+    .profile{
+        width: 182px;
+    }
+
+    #about-me{
+        display: flex;
+        flex-direction: row;
+        margin-left: 250px;
+    }
+
+    #info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }  
+    
+    #info h1{
+        width: 764px;
+        font-size: 2.3rem;
+    }
+
+    #info h2{
+        width: 764px;
+        font-size: 1.5rem;
+    }
+    /*=====SAMPLE PAGE =======*/
+
+    #main-blog-sample{
+        width: 979px;
+    }
+
+    .date-sample{
+        width: 979px;
+        font-size: 1.3rem;
+        margin-left: 150px;
+    }
+
+    .title-sample{
+        width: 808px;
+        font-size: 2.2rem;
+        margin-left: 150px;
+
+    }
+
+    .description-sample{
+        width: 842px;
+        font-size: 1.3rem;
+        margin-left: 150px;
+
+    }
+
+    .image-sample{
+        width: 979px;
+        height: 488px;
+        margin: auto;
+        margin-left: 50px;
+    }
+
+    dl{
+        width: 979px;
+        margin: auto;
+        font-size: 1.3rem;
+    }
 }
