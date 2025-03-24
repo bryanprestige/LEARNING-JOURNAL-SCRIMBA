@@ -3,22 +3,21 @@ import ARTICLES from '../api/articles.json' with { type: 'json' };
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    if (window.location.pathname.includes('index.html')) {
-
-    showMainArticle()
-    showBlogs()
-
-    const viewMoreButton = document.querySelector('#view-more-button')
-    viewMoreButton.addEventListener('click', viewMore)  
-
-    const viewLessButton = document.querySelector('#view-less-button')
-    viewLessButton.addEventListener('click', viewLess)
-    } else if (window.location.pathname.includes('about-me.html')) {
+    if (window.location.pathname.includes('about-me.html')) {
         showBlogs()
     } else if (window.location.pathname.includes('sample-post.html')) {
         showBlogs()
-    }
+    } else if (window.location.pathname.includes('index.html')) {
 
+        showMainArticle()
+        showBlogs()
+    
+        const viewMoreButton = document.querySelector('#view-more-button')
+        viewMoreButton.addEventListener('click', viewMore)  
+    
+        const viewLessButton = document.querySelector('#view-less-button')
+        viewLessButton.addEventListener('click', viewLess)
+        } 
 })
 
 function showMainArticle() {
