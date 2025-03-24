@@ -29,10 +29,10 @@ export class MoreBlogs extends LitElement {
     render() {    
     return html`
         <div id="more-blogs-component">
-            <img class="image-blog" src="./assets/blog-1-image.png">
-            <h1 class="date"> March 24, 2024</h1>
-            <h2 class="title">My new journey as a bootcamp student.</h2>
-            <h3 class="description">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</h3>
+            <img class="image-blog" src="./${this.image}">
+            <h1 class="date"> ${this.date}</h1>
+            <h2 class="title"> ${this.title}</h2>
+            <h3 class="description"> ${this.description}</h3>
         </div>
         `
     }
