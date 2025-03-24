@@ -29,7 +29,9 @@ export class MainBlog extends LitElement {
     return html`
         <div id="main-blog-component">
             <h1 class="date"> ${this.date}</h1>
-            <h2 class="title">${this.title}</h2>
+            <a href="./sample-post.html">
+                <h2 class="title">${this.title}</h2>
+            </a>
             <h3 class="description">${this.description}</h3>
         </div>
         `

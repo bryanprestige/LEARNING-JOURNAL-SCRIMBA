@@ -3,6 +3,8 @@ import ARTICLES from '../api/articles.json' with { type: 'json' };
 
 document.addEventListener('DOMContentLoaded', () => {
 
+    if (window.location.pathname.includes('index.html')) {
+
     showMainArticle()
     showBlogs()
 
@@ -11,6 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const viewLessButton = document.querySelector('#view-less-button')
     viewLessButton.addEventListener('click', viewLess)
+    } else if (window.location.pathname.includes('about-me.html')) {
+        showBlogs()
+    } else if (window.location.pathname.includes('sample-post.html')) {
+        showBlogs()
+    }
+
 })
 
 function showMainArticle() {

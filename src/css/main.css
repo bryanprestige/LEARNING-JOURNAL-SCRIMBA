@@ -58,7 +58,6 @@ a{
     font-style: italic;
     text-align: left;
     margin-left: 20px;
-    margin-bottom: -10px;
     margin-bottom: -20px;
     margin-top: 120px;
 }
@@ -148,4 +147,93 @@ footer{
     to {
         opacity: 0;
     }
+}
+
+/*=====ABOUT ME PAGE =======*/
+
+.profile{
+    width:182px;
+    border-radius: 100px;
+    justify-content: start;
+    margin-left: -200px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.introduction{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 351px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.my-description{
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 374px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+dl{
+    width: 374px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+dt{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+dd{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.recent {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+/*=====ABOUT ME PAGE =======*/
+
+.date-sample{
+    font-size: 1rem;
+    font-weight:400;
+    font-style: italic;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+    margin-top: 40px;
+}
+
+.title-sample{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.description-sample{    
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.image-sample{
+    width: 374px;
+    height: 232px;
+    margin-bottom: 20px;
+    border-radius: 3px;
 }
