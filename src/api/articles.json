@@ -1,0 +1,38 @@
+[
+  {
+    "date": "23 March, 2025",
+    "title": "My finished journey as a Neoland bootcamp student.",
+    "description": "After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.",
+    "image": "assets/article-image-hero.png"
+  },
+  {
+    "date": "14 March, 2025",
+    "title": "Last week as Neoland Bootcamp student.",
+    "description": "As my time at the Neoland Bootcamp comes to an end, I’m reflecting on the intense learning experience, the challenges faced, and the progress made. Excited for what’s next!",
+    "image": "assets/blog-1-image.png"
+  },
+  {
+    "date": "7 March, 2025",
+    "title": "My new journey as a Neoland bootcamp student.",
+    "description": "After weeks of preparation, I’ve finally joined the Neoland Bootcamp. Looking forward to sharpening my frontend skills, collaborating with peers, and diving deeper into real-world projects.",
+    "image": "assets/blog-2-image.png"
+  },
+  {
+    "date": "28 February, 2025",
+    "title": "Finally deciding to do the Neoland bootcamp.",
+    "description": "After much deliberation, I’ve taken the leap and enrolled in the Neoland Bootcamp. Excited (and a little nervous) about what’s to come, but ready for the challenge!",
+    "image": "assets/blog-3-image.png"
+  },
+  {
+    "date": "21 March, 2025",
+    "title": "Many bootcamps, many choices.",
+    "description": "Choosing the right bootcamp wasn’t easy. With so many options available, I had to weigh curriculum, mentorship, and job support before making my decision.",
+    "image": "assets/blog-4-image.png"
+  },
+  {
+    "date": "14 March, 2025",
+    "title": "Feeling lost, so I think I will change my career path",
+    "description": "Lately, I’ve been questioning if my current career direction is the right one. Exploring my options, considering a pivot, and hoping to find clarity in the coming weeks.",
+    "image": "assets/blog-5-image.png"
+  }
+]
