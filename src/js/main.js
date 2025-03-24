@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const viewLessButton = document.querySelector('#view-less-button')
         viewLessButton.addEventListener('click', viewLess)
         } 
+
 })
 
 function showMainArticle() {
